@@ -1,4 +1,4 @@
-hostname = *.smzdm.com, promotion.waimai.meituan.com, apiwz.midukanshu.com, api.1sapp.com, ios.prod.ftl.netflix.com, promotion.waimai.meituan.com, trade-acs.m.taobao.com, amdc.m.taobao.com, c.tieba.baidu.com, daojia.jd.com, api.dushu.io, api.inews.qq.com, xeq1kjnhr.m.jd.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, as.xiaojukeji.com, ifac*.iqiyi.com
+hostname = *.smzdm.com, common.diditaxi.com.cn, promotion.waimai.meituan.com, apiwz.midukanshu.com, api.1sapp.com, ios.prod.ftl.netflix.com, promotion.waimai.meituan.com, trade-acs.m.taobao.com, amdc.m.taobao.com, c.tieba.baidu.com, daojia.jd.com, api.dushu.io, api.inews.qq.com, xeq1kjnhr.m.jd.com, app*.jegotrip.com.cn, task.jegotrip.com.cn, as.xiaojukeji.com, ifac*.iqiyi.com
 
 #爱奇艺获取cookie
 ^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
