@@ -16,4 +16,4 @@ https?:\/\/task\.jegotrip\.com\.cn\:8080\/app\/tasks\?userid url script-response
 #什么值得买获取cookie
 #登陆https://zhiyou.smzdm.com/user/login
 #再访问https://www.smzdm.com
-^https:\/\/www\.smzdm\.com\/?.? url script-request-header smzdm.cookie.js
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
