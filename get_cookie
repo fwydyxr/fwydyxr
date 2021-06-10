@@ -1,4 +1,4 @@
-hostname = me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
+hostname = h5.ele.me, me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
 
 #爱奇艺获取cookie
 ^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
@@ -18,3 +18,6 @@ https?:\/\/task\.jegotrip\.com\.cn\:8080\/app\/tasks\?userid url script-response
 #京东获取cookie
 #bean.m.jd.com
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+#饿了么
+^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header elemGetCookies.js
