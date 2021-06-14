@@ -824,7 +824,7 @@ async function getPostRequest(type, body) {
         'Content-Type': `application/x-www-form-urlencoded`,
         'Host': `api.m.jd.com`,
         'Connection': `keep-alive`,
-        'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.5(0x18000528) NetType/WIFI Language/zh_CN",
+        'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1",
         'Referer': `https://wbbny.m.jd.com/babelDiy/Zeus/2s7hhSTbhMgxpGoa9JDnbDzJTaBB/index.html`,
         'Accept-Language': `zh-cn`
     };
