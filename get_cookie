@@ -1,4 +1,4 @@
-hostname = h5.ele.me, me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
+hostname = act.10010.com, m.client.10010.com, h5.ele.me, me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
 
 #爱奇艺获取cookie
 ^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
@@ -21,3 +21,7 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 
 #饿了么
 ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+
+^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
