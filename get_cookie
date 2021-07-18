@@ -1,4 +1,4 @@
-hostname = h5.ele.me, me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
+hostname = wq.jd.com, m.jingxi.com, h5.ele.me, me-api.jd.com, ifac*.iqiyi.com, common.diditaxi.com.cn, app*.jegotrip.com.cn, task.jegotrip.com.cn, *.smzdm.com, api.m.jd.com
 
 #爱奇艺获取cookie
 ^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
@@ -21,3 +21,8 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 
 #饿了么
 ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
+
+#京喜
+^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
