@@ -1,8 +1,6 @@
 #原神
-host-suffix, yuanshen.com, 🇯🇵日本
-host-suffix, mihoyo.com, 🇯🇵日本
-ip-cidr, 47.245.0.0/16, 🇯🇵日本
-ip-cidr, 8.211.0.0/16, 🇯🇵日本
+ip-cidr, 47.245.0.0/16, 888
+ip-cidr, 8.211.0.0/16, 888
 # Supercell
 # > Brawl Stars
 DOMAIN-SUFFIX,brawlstars.com
