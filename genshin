@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,mihoyo.com,-
 DOMAIN-SUFFIX,yuanshen.com,-
 DoMAIN-SUFFIX,hoyoverse.com,-
+USER-AGENT,Genshin%20Impact/402 CFNetwork/1335.0.3 Darwin/21.6.0,-
 #ip
 IP-CIDR,8.209.211.0/24,no-resolve
 IP-CIDR,8.211.157.0/24,no-resolve
