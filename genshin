@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,yuanshen.com
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,mob.com
+DOMAIN,graph.facebook.com
 
 #ip-test
 IP-CIDR,8.209.0.0/12,no-resolve
