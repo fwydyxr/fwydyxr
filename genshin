@@ -1,7 +1,12 @@
-DOMAIN-SUFFIX,mihoyo.com
-DOMAIN-SUFFIX,yuanshen.com
+DOMAIN,dispatchosglobal.yuanshen.com
+DOMAIN,oseurodispatch.yuanshen.com
+DOMAIN,jp-api-fd.dutils.com
+DOMAIN,jp-devs-data.dutils.com
+DOMAIN,jp-api-fc.dutils.com
+DOMAIN,overseauspider.yuanshen.com
+DOMAIN,autopatchhk.yuanshen.com
+DOMAIN,jp.api.share.mob.com
 DOMAIN-SUFFIX,hoyoverse.com
-DOMAIN-SUFFIX,mob.com
 DOMAIN,graph.facebook.com
 
 #ip-test
