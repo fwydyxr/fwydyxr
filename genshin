@@ -11,8 +11,8 @@ DOMAIN,graph.facebook.com
 
 #ip-test
 #IP-CIDR,8.209.0.0/12,no-resolve
-#IP-CIDR,8.211.0.0/12,no-resolve
+IP-CIDR,8.211.128.0/18,no-resolve
 #IP-CIDR,47.90.0.0/12,no-resolve
-#IP-CIDR,47.245.0.0/12,no-resolve
+IP-CIDR,47.245.0.0/18,no-resolve
 #IP-CIDR,47.74.0.0/12,no-resolve
 
