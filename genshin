@@ -9,7 +9,9 @@ DOMAIN,jp.api.share.mob.com
 DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN,graph.facebook.com
 
-#ip-test
+DST-PORT,22101
+DST-PORT,22102
+
 #IP-CIDR,8.209.0.0/12,no-resolve
 IP-CIDR,8.211.128.0/18,no-resolve
 #IP-CIDR,47.90.0.0/12,no-resolve
