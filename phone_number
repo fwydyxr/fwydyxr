@@ -1,6 +1,0 @@
-host, 114dev.com, reject
-host, onepass.geetest.com, reject
-host, nishub1.10010.com:38750, reject
-host, opencloud.wostore.cn, reject
-host, cmpassport.com, reject
-host, id6.me, reject
