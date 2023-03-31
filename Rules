@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,hiccears.com
 DOMAIN,e1.o.lencr.org
 DOMAIN-SUFFIX,rawgit.com
 
+DOMAIN,apps.apple.com
+RULE-SET,SYSTEM
+
