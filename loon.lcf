@@ -31,19 +31,20 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 [Remote Proxy]
 
 [Remote Filter]
+SG = NameRegex, FilterKey = "新加坡|SG"
 ALL = NameRegex, FilterKey = ".*"
-HK = NameRegex, FilterKey = "HK|香港"
-JP = NameRegex, FilterKey = "JP|日本"
-冷门地区 = NameRegex, FilterKey = "MY"
+HK = NameRegex, FilterKey = "^(?!.*?2.0).*(香港|HK)"
+JP = NameRegex, FilterKey = "^(?!.*?5).*(日本|JP)"
 
 [Proxy Group]
+Singapore = url-test,SG,interval = 60,tolerance = 20
 HongKong = url-test,HK,interval = 60,tolerance = 20
 Japan = url-test,JP,interval = 60,tolerance = 20
-CN2 = url-test,冷门地区,interval = 60,tolerance = 20
-All = select,ALL
-final = url-test,CN2,Japan,HongKong,All,interval = 60,tolerance = 20
+All = url-test,ALL,interval = 60,tolerance = 20
+final = url-test,Japan,HongKong,All,Singapore,interval = 60,tolerance = 5
 
 [Rule]
+DOMAIN-SUFFIX,soushufabu.top,final
 DOMAIN,pmvd.btlqb5brd4.com,final
 # Local Rule
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
@@ -60,6 +61,7 @@ DOMAIN,pmvd.btlqb5brd4.com,final
 FINAL,final
  
 [Remote Rule]
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=Singapore, tag=AI.lsr, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
@@ -119,10 +121,3 @@ https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx, enabled=true
 
 [Mitm]
-skip-server-cert-verify = false
-ca-p12 = 
-ca-passphrase = 
-hostname =
-ca-p12 = 
-ca-passphrase = 
-skip-server-cert-ve
